@@ -1,4 +1,6 @@
 package org.selenium.constants;
 
-public class DriverType {
+public enum BrowserType {
+    CHROME,
+    FIREFOX
 }
