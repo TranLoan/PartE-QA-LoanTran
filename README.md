@@ -7,7 +7,9 @@ Download Browser Driver:
 - Firefox Driver: https://github.com/mozilla/geckodriver/releases/
 
 Set Environment Variables
-- Set Environment Path to location of the driver
+- Set Environment Path to location of the folder that contains the drivers
 
 ## Run Test Cases
+Open Command Prompt in project folder.
+
 `mvn clean test -Dbrowser={Chrome|Firefox}`
